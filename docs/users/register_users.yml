@@ -1,0 +1,27 @@
+  tags:
+    - Register Users
+  responses:
+    201:
+      description: Users Register successfully
+      content:
+        application/json:
+          example:
+            username: dummy
+            email: dummy@example.com
+            password_hash: password
+  parameters:
+    - in: body
+      name: body
+      required: true
+      schema:
+        type: object
+        properties:
+          username: 
+            type: string
+            example: dummy
+          email:
+            type: string
+            example: dummy@example.com
+          password_hash:
+            type: string
+            example: password

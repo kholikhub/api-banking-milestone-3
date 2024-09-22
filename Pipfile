@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+python-dotenv = "*"
+sqlalchemy = "*"
+mysql-connector-python = "*"
+mysqlclient = "*"
+flask-login = "*"
+flask-jwt-extended = "*"
+bcrypt = "*"
+cerberus = "*"
+flasgger = "*"
+flask-session = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
